@@ -1,20 +1,33 @@
 .button {
-	border: 5px solid black;
+	border: 1px solid black;
 	height: 50px;
 	width: 150px;
-	background: black;
-	color: green;
+	background: white;
+	color: black;
 	text-align: center;
-	padding:15px;
+	padding:10px;
+	margin-top:20px;
 
+}
+.stuff {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 body {
-	background:dodgerblue;
-	font-family: Impact, Charcoal, sans-serif;
+	background: white;
+	font-family: 'Maven Pro', sans-serif;
 	font-size: 20px
+	text-align:center;
+	margin:auto;
+	position: relative;
 }
 h1 {
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: yellow;
-
+	font-family: 'Maven Pro', sans-serif;
+	color: black;
+	text-align: center;
+	margin:auto;
+}
+div {
+	text-align:center;
+	margin:auto;
 }

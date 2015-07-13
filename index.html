@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html ng-app="disruptApp">
 	<head>
-		<title>Disrupt a Better Place</title>
+		<title>Disrupt a Better Tomorrow</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script type="text/javascript" src="js/app.js" defer></script>
 		<script type="text/javascript" src="js/main.js" defer></script>
 		<script type="text/javascript" src="js/angular.js"></script>
 	</head>
 	<body ng-controller="DisruptController as DisruptCtrl">
-		<h1 ng-bind="DisruptCtrl.leftSide"></h1>
+		<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+		<div class="stuff">
+		<h1>
+			<div ng-bind="DisruptCtrl.innovation"></div>
 		<br />
-	<div class="button" ng-click="DisruptCtrl.disrupt()">Disrupt!</div>
+			<div class="button" ng-click="DisruptCtrl.disrupt()">Disrupt!</div>
 		<br />
-		<h1 ng-bind="DisruptCtrl.rightSide"></h1>
+		</h1>
+	</div>
 	</body>
 </html>
